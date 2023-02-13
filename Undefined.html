@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿¿¿???</title>
+</head>
+<script>
+    var num = 0;
+
+    function phrase() {
+        var p;
+        num += 1
+
+        if (num == 1) {
+            p = "Como que estoy coladito por esos huesos :3"
+            pic = "https://i.pinimg.com/564x/62/e6/12/62e612726c71b2cff70b78d396f9f33a.jpg"
+        } else if (num == 2) {
+            p = "Que me encanta esa sonrisa que tienes en esa carita tan bonita :p"
+            pic = "https://i.pinimg.com/236x/02/1b/af/021baf62f0d4e36608b1f2f31a0511d3.jpg"
+        } else if (num == 3) {
+            p = "Que quiero que seas mis buenas noches y mis buenos días."
+            pic = "https://i.pinimg.com/236x/12/d7/9f/12d79fc7d334edbdd55caf962e519bdc.jpg"
+        } else if (num == 4) {
+            p = "Y que aunque me vaciles... -.-"
+            pic = "https://i.pinimg.com/236x/28/44/71/2844713852bd99c8ee7cb2ac3b235a7f.jpg"
+        } else if (num == 5) {
+            p = "Me gustas mucho más, si es que eso es posible."
+            pic = "https://stickerly.pstatic.net/sticker_pack/krJt4cMbUMT5t2bktWnTKw/IVBXN1/2/aa89208a-05f0-46b3-ab86-4961c2aa87f0.png"
+        } else if (num == 6) {
+            p = "Que estoy encantado de tenerte en mi vida, y que no quiero que eso cambie nunca."
+            pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ7clb-d-cDF8BOmYaFpsvMoxAZEsAznyxT-4nmPt05cejtsFU0WHKPDzWE9gTPQ6c_zI&usqp=CAU"
+        } else if (num == 7) {
+            p = "Y no quiero que cambie porque eres especial para mí."
+            pic = "https://i.pinimg.com/236x/b2/fe/b8/b2feb8a31e5f98919e99a8ef0c5e8664.jpg"
+        } else if (num == 8) {
+            p = "Y por eso... No se si estoy metiendo la pata hasta el fondo pero..."
+            pic = "https://i.pinimg.com/564x/ac/43/67/ac4367d34098bacb85486861581bd2a9.jpg"
+        } else if (num == 9) {
+            p = "Madre mía que me muero de los nervios x.x"
+            pic = "https://i.pinimg.com/236x/8f/f9/e7/8ff9e7bd21dc233ec9e39383dcb41a97.jpg"
+        } else if (num == 10) {
+            p = "Bueno venga voy ufff"
+            pic = "https://i.pinimg.com/236x/6f/66/90/6f6690cba3b3a6abc563372b86e40d19.jpg"
+        } else if (num == 11) {
+            p = "¿Quieres salir conmigo <3?"
+            pic = "https://i.pinimg.com/236x/39/77/67/3977675d64e2aac510ad40bf8a253322.jpg"
+        }
+
+        document.getElementById("question").innerHTML = p
+        document.getElementById("myImage").src = pic
+    }
+</script>
+<body>
+    <h3 id="question" style="font-size: 20px">Hola cosa hermosa, vengo a decirte un par de cosas...</h3>
+
+    <img id="myImage" src="https://i.pinimg.com/236x/0e/8c/97/0e8c9793c55fb127995808b67e7edb6a.jpg" width="300" height="280"></img>
+
+    <p>
+        <button id= b1 type="button" onclick="phrase()">SI ME PULSAS DIGO COSAS BONITAS</button>
+    </p>
+
+</body>
+</html>
